@@ -1,0 +1,30 @@
+header {
+    font-size: 36pt;
+    background-color: bisque;
+    padding-top: 10px;
+    height: 75px;
+}
+h1 {
+    font-family: Arial, Verdana,  sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}  
+main {
+    background-color: aqua;
+}
+nav {
+    background-color: #d33f3f;
+    text-align: center;
+    font-size: 18pt;
+    height: 80px;
+} 
+article {
+    background-color: #40ad49;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #3629b3;
+    text-align: center;
+    height: 20%;
+}

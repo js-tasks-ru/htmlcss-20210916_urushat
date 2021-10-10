@@ -1,1 +1,87 @@
 /* Стилизация кнопки */
+button {
+    width: 189px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.primary {
+    border: 1px solid #4263EB;
+    background: #4263EB;
+    color: white;
+}
+.secondary {
+    border: 1px solid #7048E8;
+    background: #7048E8;
+    color: white;
+}
+.alternate {
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    color: white;
+}
+
+.primary:hover {
+    background: #2342C0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.secondary:hover {
+    background: #5028C6;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.alternate:hover {
+    border: 1px solid #212429;
+    box-sizing: border-box;
+    cursor: pointer;
+}    
+
+.primary_disabled {
+    background: #4263EB;
+    border: 1px solid #4263EB;
+    opacity: 0.5;
+    color: white;
+    }
+.secondary_disabled {
+    background: #7048E8;
+    border: 1px solid #7048E8;
+    opacity: 0.5;
+    color: white;
+    }
+.alternate_disabled {
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    color: white;
+    }
+
+.primary_disabled:hover {
+    cursor: not-allowed;
+    }
+.secondary_disabled:hover {
+    cursor: not-allowed;
+    }
+
+.alternate_disabled:hover {
+    cursor: not-allowed;
+    }
+
+
+.primary:active {
+    transform: translateY(2px);
+    }
+
+.secondary:active {
+        transform: translateY(2px);
+    }
+.alternate:active {
+        transform: translateY(2px);
+    }

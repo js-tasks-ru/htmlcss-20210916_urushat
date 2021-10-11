@@ -21,7 +21,6 @@
 .button_primary {
     border: 1px solid var(--primary);
     background: var(--primary);
-    transition: opacity 900ms ease-in-out;
 }
 .button_secondary {
     border: 1px solid var(--secondary);

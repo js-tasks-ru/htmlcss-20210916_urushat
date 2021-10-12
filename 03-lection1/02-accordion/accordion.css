@@ -1,16 +1,9 @@
 /* Стилизация аккордеона */
-.accordion {
-    margin-left: 30%;
-    margin-top: 20%;
-}
-
 .accordion_item {
     width: 730px;
     border: 1px solid var(--blue);
-
     margin-bottom: 8px;
     border-radius: 8px;
-
 }
 
 .accordion__item:last-child {
@@ -19,9 +12,17 @@
 
 .accordion__summary {
     display: inline-block;
-    height: 72px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .accordion__summary::-webkit-details-marker {
     display: none;
+}
+
+.innertext {
+    font-size: 22px;
+    font-weight : bold;
+    margin-left: 20px;
 }

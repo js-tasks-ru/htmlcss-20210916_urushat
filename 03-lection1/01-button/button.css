@@ -28,13 +28,13 @@
 }
 
 .button_primary:hover {
-    border: 1px solid var(--grey-4);
-    background: var(--grey-4);
+    border: 1px solid var(--blue-2);
+    background: var(--blue-2);
 }
 
 .button_secondary:hover {
-    border: 1px solid var(--grey-2);
-    background: var(--grey-2);
+    border: 1px solid var(--purple-2);
+    background: var(--purple-2);
 }
 
 .button_alternate:hover {
